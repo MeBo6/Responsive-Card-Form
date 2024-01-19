@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+   font-family: Poppins;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.card_bg {
+   position: relative;
+   background: #21092F;
+   width: 100%;
+   height: 240px;
+   margin-bottom: 80px;
+}
+
+.card_back {
+   margin-left: 10%;
+   position: absolute;
+   left: 50px;
+   top: 25px;
+   border-radius: 6px;
+   background: linear-gradient(169deg, #FFF 5%, #D2D3D9 91.69%);
+   width: 286px;
+   height: 157px;
+}
+
+.black_line {
+   margin-top: 15px;
+   height: 34.6px;
+   background: #2F2F2F;
+}
+
+.grey_line {
+   background: #ADB5BE;
+   width: 231px;
+   height: 29.7px;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+
+.card_back_num {
+   color: white;
+   margin-left: 85%;
+}
+
+.card_front { 
+   position: absolute;
+   left: 20px;
+   top: 119px;
+   border-radius: 6px;
+   background: linear-gradient(164deg, #6348FE 4.74%, #610595 88.83%);
+   width: 286px;
+   height: 157px;
+}
+
+.white_circle {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: white;
+} 
+
+.transparent_circle {
+   position: absolute;
+   top: 17px;
+   left: 50px;
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   border: 1px solid white;
+}
+
+.card_code_p {
+   position: absolute;
+   color: white;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 2.2px;
+   top: 75px;
+   left: 20px;
+}
+
+.card_owner {
+   font-size: 9px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 1.286px;
+   text-transform: uppercase;
+   color: #fff;
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+}
+
+.date_p {
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   color: #fff;
+   font-size: 9px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 1.286px;
+}
+
+.form {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin-left: 25px;
+}
+
+input {
+   border-radius: 8px;
+   border: 1px solid #DFDEE0;
+   background:#FFF;
+   padding: 11px 16px;
+   margin-left: 20px;
+   width: 88%;
+   margin-bottom: 20px;
+}
+
+.date_input {
+   width: 72px;
+}
+
+.divform {
+   display: flex;
+}
+
+.forflex {
+   display: flex;
+}
+
+.cvc {
+   width: 164px;
+}
+
+.confirm_btn {
+   border-radius: 8px;
+   border: 1px solid #DFDEE0;
+   background: #21092F;
+   padding: 11px 16px;
+   margin-left: 20px;
+   width: 88%;
+   margin-bottom: 20px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+@media (width > 1050px) {
+   .card_bg {
+      height: 100vh;
+      width: 483px;
+   }
+   .card_front {
+      width: 447px;
+      height: 245px;
+      top: 187px;
+      left: 164px;
+   }
+   .card_back {
+      width: 447px;
+      height: 245px;
+      top: 469px;
+      left: 210px;
+   }
+   body {
+      display: flex;
+      align-items: center;
+      gap: 400px;
+   }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Card Form</title>
+</head>
+<body>
+   <div class="card_bg">
+      <div class="card_back">
+         <div class="black_line"></div>
+         <div class="grey_line">
+            <p class="card_back_num">000</p>
+         </div>
+      </div>
+      <div class="card_front">
+         <div class="white_circle"></div>
+         <div class="transparent_circle"></div>
+         <p class="card_code_p">
+            0000 0000 0000 0000
+         </p>
+            <p class="card_owner">
+               jane appleseed
+            </p>
+            <p class="date_p">
+               00/00
+            </p>
+      </div>
+   </div>
+   <main>
+      <form class="form" action="">
+         <label for="">cardholder name</label>
+         <input type="text" placeholder="Full name">
+         <label for="">card number</label>
+         <input type="number" placeholder="Card number" name="">
+         <div class="form">
+            <label for="">exp.date (mm/yy) cvc</label>
+            <div class="forflex">
+               <input class="date_input" type="number" placeholder="MM">
+               <input class="date_input" type="number" placeholder="YY">
+               <input class="cvc" type="number" placeholder="e.g.123">
+            </div>
+         </div>
+         <button class="confirm_btn">Confirm</button>
+      </form>
+   </main>
+</body>
+</html>
